@@ -1,0 +1,29 @@
+.applicantform {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  text-align: center;
+  background-color: rgba(196, 136, 238, 0.886);
+}
+
+.applicantform label {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.applicantform input {
+  text-align: center;
+  font: inherit;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  margin-left: 10rem;
+}
+
+
